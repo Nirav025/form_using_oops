@@ -30,9 +30,9 @@ This project is a dynamic form built using HTML, CSS, Bootstrap, and JavaScript.
  
  2) On form submission, JavaScript captures the input values.
  
- 3) A base class (User) stores the form data using a constructor.
+ 3) A base class stores the form data using a constructor.
  
- 4) A child class (UserDisplay) inherits from User and handles data display.
+ 4) A child class inherits from User and handles data display.
  
  5) The submitted data is dynamically shown on the page using DOM manipulation. 
 
