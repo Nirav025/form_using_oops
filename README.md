@@ -5,16 +5,30 @@ This project is a dynamic form built using HTML, CSS, Bootstrap, and JavaScript.
 ## 🚀 Features :
 
 
-  ✅ Manual next/previous navigation
+  ✅ Clean and modern UI
   
-  ✅ Basic Bootstrap styling
+  ✅ JavaScript OOP structure using classes and inheritance
   
-  ✅ Easy to customize
+  ✅ Real-time data capture and display
+  
+  ✅ Code is modular, readable, and easy to maintain
   
 
 ## 🛠️ Technologies Used :
 
  ✅ HTML
+ 
+ ✅ CSS
+ 
+ ✅ Bootstrap
+ 
+ ✅ JavaScript
+
+## 🚀 How It Works :
+
+ 1) User fills in the form fields.
+ 
+ ✅ CSS
  
  ✅ Bootstrap
  
