@@ -1,0 +1,143 @@
+<!-------------------------------- Code By Nirav ---------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Using OOPs</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+
+        <style>
+            
+            .w-40{
+                width: 35%;
+                height: 80vh;
+            }
+
+            body{
+                background-color: #F1F1F1;
+            }
+
+            .showcontainer{
+                background-color: #FFFFFF;
+                color: black;
+            }
+
+            form{
+                background-color:#FFFFFF;
+            }
+
+            .btn{
+                background-color: #D91D18;
+                color: white;
+            }
+
+            .btn:hover{
+                background-color: #dc3d37;
+                color: white;
+            }
+
+            .round{
+                border-radius: 16px;
+                
+                box-shadow: 0  0 1px ;
+            }
+
+            .round1{
+                border-radius: 30px;
+            }
+
+            .info{
+                align-self: center;
+                font-size: 24px;
+            }
+
+
+        </style>
+
+
+</head>
+
+<body class="d-flex justify-content-center">
+
+
+
+
+    <form   method="post" class="w-40 mt-5 p-3  d-flex flex-column align-items-center round " id="submitData">
+
+        <div class="mt-4 w-100">
+            <input type="text" class="form-control showdetails" placeholder="Enter Student Name">
+        </div>
+
+        <div class="mt-4  w-100">
+            <input type="number" class="form-control showdetails" placeholder="Enter Student Mobile">
+        </div>
+
+        <div class="mt-4 w-100">
+            <input type="number" class="form-control showdetails" placeholder="Enter Student GRID">
+        </div>
+
+        <div class="mt-4 w-100">
+            <input type="text" class="form-control showdetails" placeholder="Enter Parent Name">
+        </div>
+
+        <div class="mt-4 w-100">
+            <input type="number" class="form-control showdetails" placeholder="Enter Parent Mobile">
+        </div>
+
+        <div class="mt-4 w-100">
+            <input type="text" class="form-control showdetails" placeholder="Enter Parent Relation">
+        </div>
+
+
+        <div class="mt-4  w-50">
+            <button type="submit" class="btn w-100 round1">Submit</button>
+        </div>
+
+    </form>
+
+
+    <div class="w-40 mt-5 p-3  d-flex flex-column align-items-start round  ms-4 showcontainer">
+
+
+        <div class="info">Submitted Info</div>
+
+
+        <div class="mt-4  w-100">
+            <div>Student Name : <span class="displaydetail"></span> </div>
+        </div>
+
+        <div class="mt-4  w-100">
+            <div>Student Mobile : <span class="displaydetail"></span> </div>
+        </div>
+
+        <div class="mt-4  w-100">
+            <div>Student GRID : <span class="displaydetail"></span> </div>
+        </div>
+
+        <div class="mt-4  w-100">
+            <div>Parent Name : <span class="displaydetail"></span> </div>
+        </div>
+
+        <div class="mt-4  w-100">
+            <div>Parent Mobile : <span class="displaydetail"></span> </div>
+        </div>
+
+        <div class="mt-4  w-100">
+            <div>Parent Relation : <span class="displaydetail"></span> </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
