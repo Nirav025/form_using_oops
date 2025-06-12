@@ -1,6 +1,6 @@
-# 📁Simple Image Slider (carousel) :
+# 📁Dynamic Form (Using OOPs + Inheritance) :
 
- A basic image slider (carousel) built using HTML, Bootstrap, and JavaScript. It features manual navigation controls and a clean design.
+This project is a dynamic form built using HTML, CSS, Bootstrap, and JavaScript. The form allows users to input data, which is then displayed dynamically on the page. The highlight of this project is the use of Object-Oriented Programming (OOP) concepts in JavaScript, specifically inheritance, to structure and manage form data efficiently.
 
 ## 🚀 Features :
 
